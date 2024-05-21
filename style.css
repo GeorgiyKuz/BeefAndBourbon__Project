@@ -1,0 +1,114 @@
+body * {
+  color: #fff;
+  text-decoration: none;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    background-color: black;
+}
+
+p {
+    margin: 0;
+}
+
+/* ================================================================================================== */
+
+.header__container {
+    max-width: 1410px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header__body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    padding: 5px;
+}
+
+.header__nav {
+    font-family: 'Sansation', sans-serif;
+    font-weight: 700;
+}
+
+.header__nav-item {
+    margin-left: 40px;
+}
+
+/* ================================================================================================== */
+
+.main__container {
+    max-width: 1410px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.main__video {
+    width: 100%;
+    z-index: -100;
+    position: absolute;
+    top: 70px;
+    left: 0px;
+}
+
+/* ================================================================================================== */
+
+.brend {
+    background-image: url(./img/background__brend.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 1050px;
+}
+
+.brend__container {
+    max-width: 1410px;
+    width: 100%;
+    margin: 0 auto; 
+}
+
+.brend__text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 230px;
+    font-weight: 750;
+}
+
+.brend__block-1 {
+    padding-top: 120px;
+}
+
+.brend__text-2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    float: inline-end;
+    padding-top: 70px;
+    transform: scale(-1, 1);
+    /* transform: rotate(0.5turn); */
+}
+
+.brend__block-2 {
+    margin-top: 70px;
+    text-align: center;
+}
+
+.brend__button {
+    background-color: black;
+    font-size: 20px;
+    padding: 25px 95px 25px 95px;
+    border-radius: 60px;
+    font-family: 'Sansation', sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+    border: 3px solid white;
+}
+
+
+
