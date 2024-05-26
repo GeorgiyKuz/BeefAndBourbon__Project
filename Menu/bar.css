@@ -1,0 +1,135 @@
+body * {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  body {
+    background-color: #000;
+    margin: 0;
+  }
+  
+  header {
+      background-color: black;
+  }
+  
+  p {
+      margin: 0;
+  }
+
+/* ================================================================================================== */
+
+.header__container {
+    max-width: 1410px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header__body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    padding: 5px;
+}
+
+.header__nav {
+    font-family: 'Sansation', sans-serif;
+    font-weight: 700;
+}
+
+.header__nav-item {
+    margin-left: 40px;
+}
+
+.header__nav-item:hover {
+    opacity: 1;
+    color: #BC9060;
+}
+
+/* ================================================================================================== */
+
+.menu {
+    display: grid;
+    text-align: center;
+    margin: 10px 15%;
+    margin-bottom: 10%;
+}
+
+.menu_section_1 {
+    display: grid;
+    margin: 4%;
+}
+
+.text-menu {
+    display: flex;
+    width: 500px;
+    height: 45px;
+    margin: 25px 0;
+}
+
+.menu_section_name {
+    font-family: 'Sansation', sans-serif;
+    position: relative;
+    font-size: 37px;
+    margin: 0 10px;
+    top: 9px;
+}
+
+.dishes {
+    display: flex;
+    right: 5%;
+    position: relative;
+}
+
+.dish {
+    display: grid;
+    width: 250px;
+    height: 380px;
+    margin: 0 5%;
+    background-color: #151515; 
+    border-radius: 5%;
+    padding: 0 1.5%;
+    font-size: 14.7px;
+    font-family: 'Sansation', sans-serif;
+    letter-spacing: 1.5px;
+}
+
+.dish span {
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Sansation', sans-serif;
+    position: relative;
+    bottom: 10%;
+}
+
+.price {
+    height: 28px;
+    width: 83px;
+    font-size: 20px;
+    font-weight: bold;
+    top: 30%;
+    position: relative;
+    right: 0%;
+}
+
+.price:hover{
+    color: #BC9060;
+}
+
+.exit {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.exit__nav-item {
+    color: #656363;
+}
+
+.exit__nav-item:hover {
+    color: #464545;
+}
+
+/* ================================================================================================== */
