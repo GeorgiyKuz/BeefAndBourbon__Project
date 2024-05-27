@@ -55,14 +55,14 @@
 
     <section class="menu__header">
         <nav class="menu__nav">
-            <a href="#" class="menu__nav-item">Закуски</a>
-            <a href="#" class="menu__nav-item">Салаты</a>
-            <a href="#" class="menu__nav-item">Супы</a>
-            <a href="#" class="menu__nav-item">Основные блюда</a>
-            <a href="#" class="menu__nav-item">Гарниры</a>
-            <a href="#" class="menu__nav-item">Коктейли</a>
-            <a href="#" class="menu__nav-item">Напитки</a>
-            <a href="#" class="menu__nav-item">Кофе</a>
+            <a href="#Закуски" class="menu__nav-item">Закуски</a>
+            <a href="#Салаты" class="menu__nav-item">Салаты</a>
+            <a href="#Супы" class="menu__nav-item">Супы</a>
+            <a href="#Основные блюда" class="menu__nav-item">Основные блюда</a>
+            <a href="#Гарниры" class="menu__nav-item">Гарниры</a>
+            <a href="#Коктейли" class="menu__nav-item">Коктейли</a>
+            <a href="#Напитки" class="menu__nav-item">Напитки</a>
+            <a href="#Кофе" class="menu__nav-item">Кофе</a>
             <a href="file:///C:/Users/%D0%93%D0%B5%D0%BE%D1%80%D0%B3%D0%B8%D0%B9/OneDrive/%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B/JavaScript/BeefAndBourbon__Project/Menu/bar.html" class="menu__nav-item">Бар</a>
         </nav>
     </section>
@@ -71,7 +71,7 @@
         <div class="menu_section_1">
             <div class="text-menu">
                 <img src="img/закуски.png">
-                <div class="menu_section_name">Закуски</div>
+                <div class="menu_section_name"><a id="Закуски" class="section__nav-item">Закуски</a></div>
             </div>
             <div class="dishes">
 
@@ -116,7 +116,7 @@
         <div class="menu_section_1">
             <div class="text-menu">
                 <img src="img/салаты.png">
-                <div class="menu_section_name">Салаты</div>
+                <div class="menu_section_name"><a id="Салаты" class="section__nav-item">Салаты</a></div>
             </div>
             <div class="dishes">
 
@@ -161,7 +161,7 @@
         <div class="menu_section_1">
             <div class="text-menu">
                 <img src="img/супы.png">
-                <div class="menu_section_name">Супы</div>
+                <div class="menu_section_name"><a id="Супы" class="section__nav-item">Супы</a></div>
             </div>
             <div class="dishes">
 
@@ -207,7 +207,7 @@
         <div class="menu_section_1" href="основные_блюда">
             <div class="text-menu">
                 <img src="img/основные блюда.png">
-                <div class="menu_section_name">Основные блюда</div>
+                <div class="menu_section_name"><a id="Основные блюда" class="section__nav-item">Основные блюда</a></div>
             </div>
             <div class="dishes">
 
@@ -253,7 +253,7 @@
         <div class="menu_section_1">
             <div class="text-menu">
                 <img src="img/гарниры.png">
-                <div class="menu_section_name">Гарниры</div>
+                <div class="menu_section_name"><a id="Гарниры" class="section__nav-item">Гарниры</a></div>
             </div>
             <div class="dishes">
 
@@ -299,7 +299,7 @@
         <div class="menu_section_1">
             <div class="text-menu">
                 <img src="img/коктейли.png">
-                <div class="menu_section_name">Коктейли</div>
+                <div class="menu_section_name"><a id="Коктейли" class="section__nav-item">Коктейли</a></div>
             </div>
             <div class="dishes">
 
@@ -345,7 +345,7 @@
         <div class="menu_section_1">
             <div class="text-menu">
                 <img src="img/напитки.png">
-                <div class="menu_section_name">Напитки</div>
+                <div class="menu_section_name"><a id="Напитки" class="section__nav-item">Напитки</a></div>
             </div>
             <div class="dishes">
 
@@ -393,7 +393,7 @@
         <div class="menu_section_1">
             <div class="text-menu">
                 <img src="img/кофе.png">
-                <div class="menu_section_name">Кофе</div>
+                <div class="menu_section_name"><a id="Кофе" class="section__nav-item">Кофе</a></div>
             </div>
             <div class="dishes">
 
@@ -436,6 +436,49 @@
             
         </div>
     </section>
+
+    <footer>
+        <div class="footer__container">
+          <div class="footer__body">
+  
+          <div class="footer__colums">
+            <div class="footer__column">
+              <div class="footer__logo">
+                <p class="footer__logo-text-1">BEEF <br>&<br> BOURBON</p>
+              </div>
+              <p class="footer__text-1">Мы соцсетях</p>
+              <div class="footer__social-block">
+                <a href="#" class="footer__icon"><img class="footer__icon-item" src="./img/footer-logo-1.png" alt=""></a>
+                <a href="#" class="footer__icon"><img class="footer__icon-item" src="./img/footer-logo-2.png" alt=""></a>
+                <a href="#" class="footer__icon"><img class="footer__icon-item" src="./img/footer-logo-3.png" alt=""></a>
+              </div>
+            </div>
+  
+            <div class="footer__column-2">
+              <p class="footer__text-2">Подписаться на рассылку</p>
+              <p class="footer__text-3">Любите пиво и стейк? Введите свой email, чтобы<br> подписаться на рассылку новостей <br>beef&bourrbon.</p>
+  
+              <form class="footer__form">
+                <input type="email" placeholder="адрес электронной почты">
+                <button class="footer__email-button">отправить</button>
+              </form>
+              
+            </div>
+  
+            <div class="footer__column-3">
+              <p class="footer__text-4">Информация</p>
+              <p class="footer__text-5">Для общих запросов: beef&bourrbon@gmail.com</p>
+              <p class="footer__text-6">ул. Арбат, 44с1, Москва, 119002</p>
+              <p class="footer__text-7">Тел: +7(000)333-22-33</p>
+            </div>
+          </div>
+          
+          </div>
+        </div>
+          <div class="footer__under">
+            <p class="footer__under-text-1">©  2024  Beef&Bourrbon Corp. | Privacy Policy</p>
+          </div>
+      </footer>
 
 </body>
 <script src="./menu.js"></script>
